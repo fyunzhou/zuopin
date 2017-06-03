@@ -1,0 +1,17 @@
+{
+  "name": "fx",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "方友镜 <fang799336159@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
