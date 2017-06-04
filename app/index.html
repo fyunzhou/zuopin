@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">			
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../dist/css/index.css" />
+		<script src="scripts/jquery1.42.min.js"></script>		
+		<script src="scripts/jquery.SuperSlide.2.1.1.js"></script>	
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>		
+		
+		<script src="scripts/index.js"></script>
+		
+		<style type="text/css">
+			/* css 重置 */
+		</style>
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+					<a class="navbar-brand" href="#"><img src="img/logo (1).png" style="margin-left: 60px;margin-top: -5px;" /></a>
+				</div>
+				<div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="#section1">关于</a>
+							</li>
+							<li>
+								<a href="#section2">途径</a>
+							</li>
+							<li>
+								<a href="#section3">营业时间 </a>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">团队 <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#section41">团队</a>
+									</li>
+									<li>
+										<a href="#section42">联系</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div style="position: relative;">
+			<div id="section1" class="container-fluid">
+				<div class="slideBox">
+					<div class="bd">
+						<ul>
+							<li>
+								<a><img src="img/top1.jpg" /></a>
+							</li>
+							<li>
+								<a><img src="img/top2.jpg" /></a>
+							</li>
+							<li>
+								<a><img src="img/top3.jpg" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="picScroll-top">
+
+					<div class="bd">
+						<ul class="picList">
+							<li>
+								<div style="padding: 5px;">
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;山不辞土，故能成其高；海不辞水，故能成其深！ 成功与不成功之间有时距离很短——只要后者再向前几步，获致幸福的不二法门是珍视你所拥有的、遗忘你所没有的。奋斗没有终点,任何时候都是一个起点。让我们将事前的忧虑,换为事前的思考和计划吧！ 成功的人是跟别人学习经验，失败的人只跟自己学习经验，不要害怕遭遇风险。只有通过冒险，我们才能学会如何变得勇敢。
+								</div>
+								<button class="btn ">联系我</button>
+							</li>
+							<li>
+								<div>
+									<div>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再冷的石头，坐上三年也会暖。人之所以能，是相信能。　领导的速度决定团队的效率。道路坎坷事不期，疾风劲草练男儿。成功呈概率分布，关键是你能不能坚持到成功开始呈现的那一刻没有热忱，世间便无进步。金钱损失了还能挽回，一旦失去信誉就很难挽回。相信就是强大，怀疑只会抑制能力，而信仰就是力量。
+									</div>
+
+									<div><button class="btn ">联系我</button></div>
+							</li>
+							<li>
+								<div>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个人除非自己有信心，否则无法带给别人信心。一个人几乎可以在任何他怀有无限热忱的事情上成功。平凡的脚步也可以走完伟大的行程。 用行动祈祷比用言语更能够使上帝了解。切莫只是沉湎于过去或者只是幻想未来而让生命从手指间悄悄地溜走。努力让每一天的生活过得好、过得有意义，你就会乐观而充实地度过你的整个人生。
+								</div>
+								<div><button class="btn ">联系我</button></div>
+
+							</li>
+
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				//轮播
+				jQuery(".slideBox").slide({
+					mainCell: ".bd ul",
+					effect: "left",
+					autoPlay: true,
+					trigger: "click",
+					delayTime: 1000,
+					mouseOverStop: false,
+					interTime: 4000
+				});
+
+				jQuery(".picScroll-top").slide({
+					mainCell: ".bd ul",
+					autoPage: true,
+					effect: "top",
+					autoPlay: true,
+					easing: "easeOutCirc",
+					delayTime: 2000,
+					mouseOverStop: false,
+					interTime: 5000
+				});
+			</script>
+		</div>
+		<div id="section2" class="container-fluid">
+
+			<div id="section2_1">
+				<span>
+				关于中国
+			</span>
+				<h1>领先的美发师在阿姆斯特丹</h1>
+
+				<img src="img/logo.png" />
+				<div>
+					在过去，Koffijberg理发师已经赢得了全球沙龙商业奖，并在2013年获得了Coiffure奖。我们的理发师通过各种奖项得到业界的认可。40多年来，我们的趋势设计方法代表了理发，创意和创新的理发，颜色和造型。我们的理发师在技术能力方面表现优异， 并为客户提供专业的方法。
+					<a href="#">查看更多</a>
+				</div>
+				<button class="btn btn-lg btn-default">我们的收藏</button>
+			</div>
+		</div>
+		<div id="section3" class="container-fluid">
+			<h1>营业时间</h1>
+			<p>星期一 <span>09.15-19.00</span></p>
+			<p>星期二 <span>09.15-19.00</span></p>
+			<p>星期三 <span>09.15-19.00</span></p>
+			<p>星期四 <span>09.15-19.00</span></p>
+			<p>星期五 <span>09.15-19.00</span></p>
+			<p>星期六 <span>09.15-19.00</span></p>
+			<p>星期天 <span>闭馆</span></p>
+
+		</div>
+		<div id="section41" class="container-fluid">
+			<div id="section41_1">
+				<div class="col-xs-10">
+
+					<table class="table">
+						<caption style="font-size: 40px;">关于治疗</caption>
+						<thead>
+							<tr >
+								<th>妇女</th>
+								<th>美发师</th>
+								<th>顶级造型师 </th>
+								<th>大师造型师<sup>1</sup></th>
+							</tr>
+						</thead>
+						<tbody >
+							<tr>
+								<td >洗涤（45分钟）</td>
+								<td >€45</td>
+								<td >57,55欧元</td>
+								<td >63,85欧元</td>
+							</tr>
+							<tr>
+								<td>洗涤，切割和造型（60分钟）</td>
+								<td>€49,15</td>
+								<td>€68,00</td>
+								<td>€75,20</td>
+							</tr>
+							<tr>
+								<td>清洗，吹干（60分钟）</td>
+								<td>56,05欧元</td>
+								<td>74,60欧元</td>
+								<td>€82,50</td>
+							</tr>
+							<tr>
+								<td>洗涤，切割和吹干中长发（75分钟）</td>
+								<td>66,75欧元</td>
+								<td>87,90欧元</td>
+								<td>96.00欧元</td>
+							</tr>
+							<tr>
+								<td>洗涤，切割和吹干头发（90分钟）</td>
+								<td>72,85欧元</td>
+								<td>101,40欧元</td>
+								<td>€109,50</td>
+							</tr>
+							<tr>
+								<th>男人</th>
+							</tr>
+							<tr>
+								<td>洗涤和切割</td>
+								<td>€435</td>
+								<td>€50,00</td>
+								<td>56,35欧元</td>
+							</tr>
+							<tr>
+								<th>儿童/青少年/学生<sup>2</sup></th>
+							</tr>
+							<tr>
+								<td>长达12年</td>
+								<td>€29,25</td>
+								<td>€33,50</td>
+								<td>NVT</td>
+							</tr>
+							<tr>
+								<td>长达20年的学生</td>
+								<td>20％korting</td>
+								<td>20％korting</td>
+								<td>NVT</td>
+							</tr>
+						</tbody>
+
+					</table>
+				</div>
+				<div class="col-xs-2">
+
+					<p> <sup>1</sup>对于Kimm Koffijberg，酒店增加了附加费。</p>
+					<p><sup>2</sup>标准优惠价格不能与其他优惠结合使用，不适用于Master-Stylists和颜色专家的护理。</p>
+
+					<p>所有价格的颜色处理都是起价。最终价格可能与上述价格不同。最终价格部分取决于治疗所需的时间。价格也可能受到所需产品数量的影响。理发师可以在​​治疗之前为您提供估计。
+					</p>
+					<!--<button class="btn btn-lg btn-default" >联系我</button>-->
+				</div>			
+			</div>
+		</div>
+			<div id="section42" class="container-fluid" >
+				
+			</div>
+			<div id="section43" class="container-fluid">
+				<div id="section43_1" class="col-xs-6 col-md-6 ">
+					<h1>Section 4 Submenu 2</h1>
+					<img src="img/start.jpg"/>
+					<p>美国的趋势，现在也在我们的沙龙：吹干区。在30分钟之内，我们吹干你的头发或创建一个上升。同时，您可以享用饮品和小吃。你到达沙龙，你的头发洗干净。在那里，您只需选择我们的一个外观，我们确保，在半小时内，您将沙龙与发型保持一致。
+						爆炸是快速和负担得起的。意外的商务会议？今晚的派对 给我们打电话或拜访沙龙，并预定一个爆胎。
+					</p>
+					<button class="btn btn-default">联系我</button>
+				</div>
+				<div  id="section43_2" class="col-xs-6 col-md-6">
+					<h1>颜色齿轮</h1>
+					<p>Koffijberg理发师将头发颜色分析到另一个层次。与您一起，我们选择适合您的生活方式和愿望的头发颜色。你想要你的头发颜色来匹配你的肤色或你的眼睛的颜色？你想要看到更强或更专业的眼光吗？
+					你想在工作中注意更多吗？生活中有什么可以让你想改变你的形象吗？基于一系列问题，心情板和颜色领，我们的颜色专家可以为您提供专业的建议。参观我们的沙龙，亲身体验。</p>
+					<button class="btn btn-default">预约</button>
+				</div>						
+			</div>
+			
+				<div id="section44" class="container-fluid">	
+			<h1>明星</h1>
+			<p>Koffijberg理发师团队由不同才华的理发师组成。在团队中，所有美发师都有同样的理念：个人关注，工艺和个性化的咨询，适应客户的内在和外在的美感。</p>
+		<div class="picScroll-left">
+
+			<div class="bd">
+				<ul class="picList">
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_1.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_2.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_3.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_4.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_5.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_6.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_7.jpg" /></a>
+						</div>
+
+					</li>
+					<li>
+						<div class="pic">
+							<a href="#"><img src="img/start_8.jpg" /></a>
+						</div>
+
+					</li>
+				</ul>
+			</div>
+			<a class="prev" href="javascript:void(0)">
+				<img src="img/left.png"/>
+			</a>
+			<a class="next" href="javascript:void(0)">
+				<img src="img/right.png"/>
+			</a>
+		</div>
+		
+	</div>
+		<script type="text/javascript">
+			jQuery(".picScroll-left").slide({
+				mainCell: ".bd ul",
+				autoPage: true,
+				effect: "left",
+				autoPlay: true,
+				vis: 3,
+				trigger: "click"
+			});
+		</script>
+
+		<div id="section45" class="container-fluid">
+		<div class="col-md-6 col-xs-6" id="section45_1">
+			<h1>范围和填料</h1>
+			<p>你想要一个完整和郁郁葱葱的发型，创建一个上升的长度，或改变为不同的颜色？你犹豫要永久改变吗？使用Balmain发条，我们可以使这些梦想成真。头发延长部分是由真实或合成头发制成的头发，可以放置在自己的头发之间。结果，你的头发变长和/或更丰满。他们过去3个月。您只需添加一些扩展名或所谓的Longueur +头发，等于18个扩展名。你的头发仍然很容易：造成卷发，吹风，一切都是可能的。只有一个晚上只有马尾辫或发片也是可能的。要讨论可能性并收到个性化建议，您可以在我们的沙龙预约。这项任用既是非正式的，也是免费的。</p>
+			<button class="btn btn-default">预约</button>
+		</div>
+		<div class="col-md-6 col-xs-6" id="section45_2">
+			<h1>闪亮的灰色</h1>
+			<p>Kimm Koffijberg开发了一个独特的概念，对于那些想要将自己的彩色头发变成自然而又闪闪发光的现代灰色外观的女性来说，“闪耀的灰色”遵循一个微妙而个性化的分步骤计划，通常需要一年时间。每3到4个月，您可以到我们的沙龙。每次访问，我们的理发师巧妙地放置低调和亮点，以便越来越多地混合着色和灰色的头发。这样，你和周围的人就可以慢慢习惯你的新的，灰色的颜色。在此期间，我们的理发师保护头发的质量和颜色。一年后的结果：闪闪发光，灰色和现代的外观。</p>
+			<button class="btn btn-default">预约</button>
+		</div>
+		</div>
+		<div id="bottom_" class="container-fluid">
+			<div id="bottom_1" class="col-md-4 col-xs-4">
+				<h1>联系</h1>
+				<p>
+					<a href="#">Koffijberg理发师</a>
+				</p>
+				<p>
+					<a href="#">Scheldestraat 8</a>
+				</p>
+				<p>
+					<a href="#">1078 GK阿姆斯特丹020-6732374</a>
+				</p>
+				<p>
+					<a href="#">eceptie@koffijberg.nl CoC 33145461</a>
+				</p>
+				<p>
+					<a href="#">增值税NL820928367B01</a>
+				</p>
+			</div>
+			<div id="bottom_2" class="col-md-4 col-xs-4">
+				<h1>营业时间</h1>
+				<p>星期一 <span>09.15-19.00</span></p>
+				<p>星期二 <span>09.15-19.00</span></p>
+				<p>星期三 <span>09.15-19.00</span></p>
+				<p>星期四 <span>09.15-19.00</span></p>
+				<p>星期五 <span>09.15-19.00</span></p>
+				<p>星期六 <span>09.15-19.00</span></p>
+				<p>星期天 <span>闭馆</span></p>
+
+			</div>
+			<div id="bottom_3" class="col-md-4 col-xs-4">
+				<h1>最近的帖子</h1>
+				<p>
+					<a href="#">17/02/2017 - Keune的新色彩</a>
+				</p>
+				<p>
+					<a href="#">
+						13/10/2016 - New Keune Care</a>
+				</p>
+				<p>
+					<a href="#">28/04/2016 - 骑士在Oranje-Nassau的</a>
+				</p>
+				<p>
+					<a href="#">秩序15/04/2016 - Koffijberg 40周年</a>
+				</p>
+				<p>
+					<a href="#">25/03/2016 - 制作的“进贡”收藏</a>
+				</p>
+				<p>
+					<a href="#">25/03/2016 - Coiffure奖提名</a>
+				</p>
+				<p>
+					<a href="#">25/01/2016 - 英文网站推出</a>
+				</p>
+			</div>
+		</div>
+		<div id="bottom2" class="container-fluid">
+			<div class="col-md-5 col-xs-5"><span>Koffijberg理发师 - 个人意见，美发，染发，服务，质量和专业</span></div>
+			<div class="col-md-7 col-xs-7>
+				<a href="#">免责声明</a>
+				<img src="img/bottom.png"/>
+			</div>
+			
+		</div>
+
+
+	</body>
+
+</html>
+
+
+  
