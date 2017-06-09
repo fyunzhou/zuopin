@@ -6,10 +6,12 @@
 		<title>首页</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">			
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../dist/css/resetting.css" />
 		<link rel="stylesheet" href="../dist/css/index.css" />
-		<script src="scripts/jquery1.42.min.js"></script>		
+		<script src="scripts/jquery1.42.min.js"></script>	
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>	
 		<script src="scripts/jquery.SuperSlide.2.1.1.js"></script>	
-		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>		
+			
 		
 		<script src="scripts/index.js"></script>
 		
@@ -34,16 +36,19 @@
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
 							<li>
-								<a href="#section1">关于</a>
+								<a href="index.html">关于</a>
 							</li>
 							<li>
-								<a href="#section2">途径</a>
+								<a href="method.html">途径</a>
 							</li>
 							<li>
 								<a href="#section3">营业时间 </a>
 							</li>
+							<li>
+								<a href="collect.html">收藏</a>
+							</li>
 							<li class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#">团队 <span class="caret"></span></a>
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">团队<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
 										<a href="#section41">团队</a>
@@ -141,9 +146,10 @@
 				<img src="img/logo.png" />
 				<div>
 					在过去，Koffijberg理发师已经赢得了全球沙龙商业奖，并在2013年获得了Coiffure奖。我们的理发师通过各种奖项得到业界的认可。40多年来，我们的趋势设计方法代表了理发，创意和创新的理发，颜色和造型。我们的理发师在技术能力方面表现优异， 并为客户提供专业的方法。
-					<a href="#">查看更多</a>
+					<a href="collect.html">查看更多</a>
 				</div>
-				<button class="btn btn-lg btn-default">我们的收藏</button>
+				
+				<button class="btn btn-lg btn-default"> <a href="collect.html">我们的收藏</a></button>
 			</div>
 		</div>
 		<div id="section3" class="container-fluid">
@@ -264,9 +270,9 @@
 				<div id="section44" class="container-fluid">	
 			<h1>明星</h1>
 			<p>Koffijberg理发师团队由不同才华的理发师组成。在团队中，所有美发师都有同样的理念：个人关注，工艺和个性化的咨询，适应客户的内在和外在的美感。</p>
-		<div class="picScroll-left">
+		<div class="picScroll-left ">
 
-			<div class="bd">
+			<div class="bd col-md-6">
 				<ul class="picList">
 					<li>
 						<div class="pic">
@@ -318,10 +324,10 @@
 					</li>
 				</ul>
 			</div>
-			<a class="prev" href="javascript:void(0)">
+			<a class="prev col-md-3" href="javascript:void(0)">
 				<img src="img/left.png"/>
 			</a>
-			<a class="next" href="javascript:void(0)">
+			<a class="next col-md-3" href="javascript:void(0)">
 				<img src="img/right.png"/>
 			</a>
 		</div>
