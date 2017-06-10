@@ -1,5 +1,7 @@
 
-
+body{
+	font: "仿宋";
+}
 #section1 {
 	padding-top: 50px;
 	height: 700px;
@@ -182,11 +184,13 @@
 }
 
 .picScroll-left {
-	width: 60%;
+	width:50%;
 	overflow: hidden;
 	position: relative;
 	background: #403732;
 	margin: 0 auto;
+
+	
 }
 
 .picScroll-left .bd {
@@ -212,8 +216,8 @@
 }
 
 .picScroll-left .bd ul li .pic img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	padding: 12px;
 	margin: 0 auto;
 	border-radius: 50%;
@@ -229,7 +233,7 @@
 
 
 /* 下面是前/后按钮代码，如果不需要删除即可 */
-
+/*
 .prev,
 .next {
 	position: absolute;
@@ -245,9 +249,9 @@
 }
 
 .next {
-	left: auto;
+	left:auto;
 	right: 3%;
-	background-position: 8px 5px;
+	
 }
 
 .prev:hover,
@@ -262,7 +266,7 @@
 
 .nextStop {
 	display: none;
-}
+}*/
 
 #section44 {
 	padding-top: 50px;
