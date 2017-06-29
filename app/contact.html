@@ -70,6 +70,7 @@
 						</select>
 					</div>
 				</div>
+				<form action="index.html" method="get">
 				<div class="col-md-4">
 					<div class="form-group">名字*<br /><input type="text" class="form-control" required name="name" /></div>
 				</div>
@@ -77,10 +78,10 @@
 					<div class="form-group">姓氏*<br /><input type="text" class="form-control" required name="name" /></div>
 				</div>
 				<div class="col-md-6">
-					<div class="form-group">电子邮箱*<br /><input type="email" class="form-control" required name="email" /></div>
+					<div class="form-group">电子邮箱*<br /><input type="email" class="form-control" required name="email" pattern="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"  title="邮箱格式错误" /></div>
 				</div>
 				<div class="col-md-6">
-					<div class="form-group">电话*<br /><input type="number" class="form-control" required name="phone" /></div>
+					<div class="form-group">电话*<br /><input type="text" class="form-control" required name="phone" pattern="1[3|4|5|8][0-9]\d{4,8}"  title="手机格式错误" /></div>
 				</div>
 				<div class="col-md-12">
 					<div class="form-group" style="margin-bottom: 0;">
@@ -88,7 +89,7 @@
 					</div>
 
 				</div>
-
+				
 				<div id="vraagdiv">
 					<div class="row">
 						<div class="col-md-12">
@@ -98,9 +99,12 @@
 						</div>
 					</div>
 				</div>
-				<a href="index.html"><input class="btn btn-lg" type="submit" value="提交" style="margin-bottom: 20px;" /></a>
+									<a href="index.html"><input class="btn btn-lg" type="submit" value="提交" style="margin-bottom: 20px;" /></a>
+</form>
 			
 				</div>
+				
+				
 			</div>
 			</div>
 					<div id="bottom_" class="container-fluid">
